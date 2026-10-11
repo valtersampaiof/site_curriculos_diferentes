@@ -69,3 +69,14 @@ footer {
     margin: 30px;
     border-top: 1px solid #ccc;
 }
+
+.links a { overflow-wrap: anywhere; }
+
+@media (max-width: 600px) {
+    main   { margin: 16px 12px; padding: 16px; }
+    footer { margin: 16px; padding: 16px; }
+    .abas label { padding: .5rem .8rem; font-size: .9rem; }
+}
+
+
+summary h3 { display: inline; cursor: pointer; }
